@@ -21,11 +21,11 @@
   * NodeJS
   * ExpressJS
   * NoSQL (MongoDB)
-  * Mongoose
   
 ## Implemented
   * MongoDB Connection
   * Initial Project Structure (Router, Service, Model)
+  * Mongoose implementation
   * Event model
   
 ## Pending R&D
