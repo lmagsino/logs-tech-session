@@ -43,9 +43,9 @@
   
   ```
   type : create, update, delete <system-generated>
-	 auditable_type : Company
- 	auditable_id : 1
-	 user_id : 1
+  auditable_type : Company
+  auditable_id : 1
+  user_id : 1
   user_type : AdminUser
   version : 2 <system-generated>
   changes: {"city": {"old": "test", "new": "test 1"}} <system-generated>
