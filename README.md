@@ -28,6 +28,19 @@
   * Mongoose implementation
   * Event model
   
+  ```
+  const Event = mongoose.model('Event', {
+    type: {type: String, required: true},
+    auditable_type: {type: String, required: true},
+    auditable_id: {type: String, required: true},
+    user_id: {type: String, required: true},
+    user_type: {type: String},
+    version: {type: Number, required: true},
+    changes: {type: {}},
+    created_at: {type: Date, required: true}
+  })
+  ```
+  
 ## Pending R&D
   * Server
   * Implementation on Advance/Andy
