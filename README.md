@@ -41,6 +41,10 @@
   })
   ```
   
+## Endpoint
+  * Save event
+  * Retrieve events (by user, by type, with pagination)
+  
 ## Pending R&D
   * Server
   * Implementation on Advance/Andy
