@@ -1,9 +1,9 @@
 # logs-tech-session
 
 ## Requirements
-  * Audit logs
+  * Audit trail
   * Separated from transactional database
-  * Dynamic column
+  * Dynamic schema
 
 ## Existing Implementation
   * Audited gem
@@ -57,6 +57,7 @@
   * Retrieve events (by user, by type, with pagination)
   
 ## Pending R&D
-  * Server
+  * Server (AWS, Google Cloud)
   * Implementation on Advance/Andy
+  * Utilities
   
