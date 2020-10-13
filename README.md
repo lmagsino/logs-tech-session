@@ -16,16 +16,16 @@
   - pending
   - deducted
   ```
-
-## Proposed tech stack
-  * NodeJS
-  * ExpressJS
-  * NoSQL (MongoDB)
   
 ## Diagram
 ![existing_logging](https://user-images.githubusercontent.com/10264177/95716752-7f988480-0c9e-11eb-9a88-4cc256d86fd3.png)
 
 ![1st_level](https://user-images.githubusercontent.com/10264177/95716818-9e971680-0c9e-11eb-8626-3d10261c9284.png)
+
+## Proposed tech stack
+  * NodeJS
+  * ExpressJS
+  * NoSQL (MongoDB)
   
 ## Implemented
   * MongoDB Connection
