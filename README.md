@@ -22,6 +22,11 @@
   * ExpressJS
   * NoSQL (MongoDB)
   
+## Diagram
+![existing_logging](https://user-images.githubusercontent.com/10264177/95716752-7f988480-0c9e-11eb-9a88-4cc256d86fd3.png)
+
+![1st_level](https://user-images.githubusercontent.com/10264177/95716818-9e971680-0c9e-11eb-8626-3d10261c9284.png)
+  
 ## Implemented
   * MongoDB Connection
   * Initial Project Structure (Router, Service, Model)
@@ -51,12 +56,6 @@
   changes: {"city": {"old": "test", "new": "test 1"}} <system-generated>
   created_at : <current date>
   ```
-  
-## Diagram
-![existing_logging](https://user-images.githubusercontent.com/10264177/95716752-7f988480-0c9e-11eb-9a88-4cc256d86fd3.png)
-
-![1st_level](https://user-images.githubusercontent.com/10264177/95716818-9e971680-0c9e-11eb-8626-3d10261c9284.png)
-
   
 ## Endpoint
   * Save event
