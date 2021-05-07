@@ -22,51 +22,30 @@
 
 ![1st_level](https://user-images.githubusercontent.com/10264177/95716818-9e971680-0c9e-11eb-8626-3d10261c9284.png)
 
-## Proposed tech stack
+## Stack
   * NodeJS
   * ExpressJS
   * NoSQL (MongoDB)
+  * Mongoose
+  * Oauth
+  * GCP App Engine
+  * Mongodb Atlas
+  * Robo3T
+
+## Setup MongoDB
+  * Install and setup MongoDB: https://zellwk.com/blog/install-mongodb/
+  * Create advance-log database
+  * Import dump of advance transactional database using mongorestore
+
+## Migration
+  * Convert postgresql data to json
+  * Import to MongoDB using mongoimport: mongoimport --db advance-log --collection audits --type json --file /temp.json --jsonArray
   
-## Implemented
-  * MongoDB Connection
-  * Initial Project Structure (Router, Service, Model)
-  * Mongoose implementation
-  * Event model
-  
-  ```
-  const Event = mongoose.model('Event', {
-    type: {type: String, required: true},
-    auditable_type: {type: String, required: true},
-    auditable_id: {type: String, required: true},
-    user_id: {type: String, required: true},
-    user_type: {type: String},
-    version: {type: Number, required: true},
-    changes: {type: {}},
-    created_at: {type: Date, required: true}
-  })
-  ```
-  
-  ```
-  type : create, update, delete <system-generated>
-  auditable_type : Company
-  auditable_id : 1
-  user_id : 1
-  user_type : AdminUser
-  version : 2 <system-generated>
-  changes: {"city": {"old": "test", "new": "test 1"}} <system-generated>
-  created_at : <current date>
-  ```
-  
-## Endpoint
-  * Save event
-  * Retrieve events (by user, by type, with pagination)
-  
-## Pending R&D
-  * Server (AWS, Google Cloud)
-  * Implementation on Advance/Andy
-  * Utilities
+## Tech Consideration
   * ELK stack
-  * Migrate from postgresql to mongodb
-  * oauth
+  * Server (AWS)
+  * GCP Firestore
+
+
   
   
